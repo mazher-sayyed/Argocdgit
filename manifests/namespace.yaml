@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: sample-istio-app
+  labels:
+    istio-injection: enabled  # Enable Istio sidecar injection
+
